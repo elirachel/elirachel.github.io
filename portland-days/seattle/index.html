@@ -1,0 +1,253 @@
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive|News+Cycle:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <title>Recursions</title>
+  </head>
+
+  <style>
+    h1 {
+      font-family: 'Cedarville cursive', cursive;
+      font-size: 50px;
+    }
+    h3 {
+      font-family: 'News Cycle', sans-serif;
+      margin: 20px;
+    }
+    h4 {
+      font-family: 'News Cycle', sans-serif;
+      text-align: left;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    p {
+      font-family: 'News Cycle', sans-serif;
+      font-size: 16px;
+      margin: 30px 0px 30px 0px;
+    }
+    body {
+      background-color: rgb(254,254,254);
+      margin: 100px 150px 150px 150px;
+    }
+    footer {
+      background-color: rgb(254,254,254);
+      margin-top: 100px;
+    }
+    li {
+      font-family: 'News Cycle', sans-serif;
+      font-size: 16px;
+      margin: 15px 0px 15px 0px;
+    }
+    .container-fluid {
+
+    }
+    .border-heading {
+      border-bottom-style: solid;
+      border-bottom-color: black;
+      border-bottom-width: 1px;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+    }
+    .border-links {
+      margin-bottom: 100px;
+      margin-top: -5px;
+    }
+  </style>
+
+<div class="container-fluid">
+
+  <body>
+    <div class="row border-heading">
+      <div class="col-md-2">
+        <img src="/images/seattlewall.JPG" alt="Climbing." style="width:4016px height:2154px" class="img-responsive">
+      </div>
+      <div class="col-md-4">
+        <h1 class="text-center">Recursions</h1>
+      </div>
+      <div class="col-md-2">
+        <img src="/images/seattlewall.JPG" alt="Climbing." style="width:4016px height:2154px" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="/images/seattlewall.JPG" alt="Climbing." style="width:4016px height:2154px" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="/images/seattlewall.JPG" alt="Climbing." style="width:4016px height:2154px" class="img-responsive">
+      </div>
+    </div>
+
+    <div class="row">
+      <p class="pull-right border-links"><a href="http://elirachel.github.io/" style="padding-right:40px">Home</a> <a href="http://elirachel.github.io/roadtrips" style="padding-right:40px">Roadtrips</a> <a href="http://elirachel.github.io/portland-days">Portland Days</a>
+      </p>
+    </div>
+
+    <div class="row">
+      <h3 class="col-md-12 text-center">Seattle: Where Orcas are Gods</h3>
+    </div>
+
+    <div class="row">
+      <p>When I was in Utah on my way out West, my godmother gave me contact information for her grandson, Daniel, who lives in Seattle. When we were kids, Daniel played with my siblings and me in my godparents' backyard on their rickety old playground. He and Brother Adam were best kid friends. You know, the kind of best friends who are such by parental connections and the ease of childhood. I mentioned wanting to see Seattle at some point during my PNW travels, and Yancey thought it would be a great idea for me to meet up with Daniel and his friends. She was certainly correct. It was a great idea.
+      </p>
+      <p>Traffic out of Portland was slow, but unless I've got some time constraints on my schedule, I'm usually not bothered by traffic. Plus, it was almost 90 degrees outside! What does it matter if I'm enjoying the sun in my car with the radio on (Beyonce has been my music kween of choice lately) or at my destination? Washington state looks mostly the same as Oregon state, as far as I could tell from the 3-hour drive between the two hip cities. I'm getting pretty good at driving long distances. Out of 10 levels, my driving stamina is probably an 8. I made up all the levels arbitrarily, so there's no way to prove objectivity. You really have no idea how my stamina is except that I'm satisfied with it.
+      </p>
+      <p>Upon arriving at my destination, I was greeted by a Daniel adult and a Thurman dog. Both were pleasant surprises and very welcoming. I was even more pleased to meet Alex, Daniel's adult girlfriend. She was out hunting for food, and when she got home, we prepared to eat it. The rest of the evening consisted of food, getting to know new (and re-new) friends, and making plans for the weekend. As always, I wanted to do everything, so Daniel suggested we do city stuff on Saturday and nature stuff on Sunday. Way to plan, Danny-boy! So, here's how our the wonderful Washington weekend turned out:
+      </p>
+      <h4>Saturday. Seattle. Sights in the city.</h4>
+      <p>Unfortunately, Alex had to work this morning, so Daniel and Thurman and I were on our own. We went out to Green Lake Park and walked around the lake. Gorgeous day, people everywhere, dogs all around.
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seagreenlake.JPG" alt="Green Lake." style="width:600px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seablossoms.JPG" alt="Blossoms." style="width:600px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div>
+      <p class="text-center">And how about these turtle babies?</p>
+    </div>
+
+    <div class="row">
+        <img src="/images/seaturtles.JPG" alt="Turtle Babies." style="width:600px; height:800px" class="img-responsive center-block">
+    </div>
+
+    <div class="row">
+      <p>After dropping Thurman off at the house, we found Alex at her restaurant after the lunch rush. Not that she owns a restaurant (though I wouldn't be surprised with how ambitious and determined she is); she just works there. Alex suggested we hit Pike Place Market as our first tourist stop so that we could have some time to walk around before vendors started closing down.
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seapikespierfour.JPG" alt="Flowers at Pike Place Market." style="width:338px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seapikespierthree.JPG" alt="Flowers at Pike Place Market." style="width:600px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seadanandme.JPG" alt="Dan and me." style="width:600px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seaalexanddan.JPG" alt="Alex." style="width:338px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <p>As confident and fearless as I claim to be, I am terribly jumpy. Very easily startled. Bike bells behind me send me into the nearest person's arms like Scooby Doo and Shaggy. The fishmongers held this monkfish (if it really is a monkfish) by a rope through the counter. When people got close to it, they would pull the string and make the fish jump at poor, curious bystanders... like me. I put Tony Hawk to shame with how much air I got; though the shame was mine after screaming in a crowded public space the way I did.
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seapikespierone.JPG" alt="Monkfish?" style="width:600px; height:800px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seapikespiertwo.JPG" alt="Pretty red fish with tongues." style="width:600px; height:800px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <p>Seattle knows me because Seattle knows Orca whales. I actually almost moved here instead of Portland for this very reason. (Impetuousness brought me to Portland. I have no regrets.) I've always had very vivid dreams about Orcas, and they are fascinating creatures. My favorite book about the spiritual and communal beings is Listening to Whales by Alexandra Morton; if you're looking for some informative narrative work on Orcas, take my recommendation for this one. Anyway, I found this carving of a whale in Seattle, because whales are everywhere.
+      </p>
+    </div>
+
+      <div class="row">
+        <img src="/images/seaorcaandme.JPG" alt="Orca and me." style="width:600px; height:450px" class="img-responsive center-block">
+      </div>
+
+    <div class="row">
+      <p>My Seattle pals showed me the Olympic Sculpture Park, which, if you didn't guess from the name, is a park full of sculptures. Here are a few pictures that illustrate this appropriately named space.
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seasculpturepark.JPG" alt="Olympic Sculpture Park." style="width:600px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seaartparkone.JPG" alt="Art." style="width:338px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seaartparkthree.JPG" alt="Art." style="width:338px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seaartparktwo.JPG" alt="Art." style="width:600px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seawallart.JPG" alt="Art." style="width:338px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seawallone.JPG" alt="Walking on a wall." style="width:338px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <p>To complete our city tour, we stopped by the Space Needle. We didn't go up inside, and I didn't learn much about it, but it's pretty cool. I think I did a pretty good impression of it.
+      </p>
+    </div>
+
+    <div class="row">
+      <img src="/images/seaimaneedle.JPG" alt="I'm a Space Needle." style="width:600px; height:800px" class="img-responsive center-block">
+    </div>
+
+    <div class="row">
+      <h4>Sunday. Snoqualmie Falls. Seeing water fall from great heights.</h4>
+
+      <p>Before heading out of the city, I popped into one of the Seattle Salvation Army Corps. I had had coffee/tea with the pastor of the church, Amy Carr Reardon, who is a friend of a friend, the day before. We had great conversations about social justice, adoption, London, and other exciting topics; so when she invited me to church, I was glad to have the opportunity to learn from her insights again.
+      </p>
+      <p>After church, when Alex got back from work, we headed out of the city. We thought about going to Mount Rainier or the Rainforest, but all of those well-known nature spots were further than we hoped and didn't work with our timing. So, Alex recommended Snoqualmie Falls, not too far out of the city and right on my way back to Portland. One of the cool things about cities out west, as far as I can tell, is their proximity to non-city attractions and activities. Nature everywhere.
+      </p>
+    </div>
+
+    <!--<div class="row">
+      <div class="col-md-6">
+        <img src="/images/seasculpturepark.JPG" alt="Olympic Sculpture Park." style="width:600px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seaartparkone.JPG" alt="Art." style="width:338px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seaartparkthree.JPG" alt="Art." style="width:338px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seaartparktwo.JPG" alt="Art." style="width:600px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/images/seawallart.JPG" alt="Art." style="width:338px; height:450px" class="img-responsive pull-left">
+      </div>
+      <div class="col-md-6">
+        <img src="/images/seawallone.JPG" alt="Walking on a wall." style="width:338px; height:450px" class="img-responsive pull-right">
+      </div>
+    </div>-->
+
+    <div class="row">
+      <p>Well done, Seattle. You've convinced me that you are interesting enough for me to visit again, perhaps for a bit longer next time.
+      </p>
+      <p>Finally, here is a picture of me in front of a wall of gum. The whole alley was covered.
+      </p>
+    </div>
+
+    <div class="row">
+      <img src="/images/seagumwall.JPG" alt="Wall of gum." style="width:600px; height:800px" class="img-responsive center-block">
+    </div>
+
+  </body>
+
+</div>
+</html>
