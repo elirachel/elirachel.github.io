@@ -1,28 +1,35 @@
+/*
+font-family: 'Crimson Text', serif;
+font-family: 'Arsenal', sans-serif;
+*/
+
 body {
   margin: 0 auto;
   max-width: 750px;
-  background-color: rgba(150,160,150,1)
+  background-color: rgba(150,160,150,1);
+  font-family: 'Crimson Text', serif;
 }
 header {
   text-align: center;
   background-image: url('./images/IMG_3858.jpg');
   background-position: center;
   background-size: cover;
-  color: white;
+  color: rgba(200,200,200,1);
   margin: 0 auto;
 }
 h1 {
-  font-size: 70px;
-  font-family: Verdana, sans-serif;
-  padding: 70px 0px 200px 0px;
+  font-size: 75px;
+  font-family: 'Arsenal', sans-serif;
 }
 h2 {
   font-size: 30px;
-  font-family: Arial, sans-serif;
+  font-family: 'Arsenal', sans-serif;
+}
+h3 {
+  font-size: 22px
 }
 p {
   font-size: 18px;
-  font-family: Arial, sans-serif;
   color: rgba(255, 255, 255, 1);
   background: rgba(0, 0, 0, 0.5);
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
@@ -39,9 +46,9 @@ small {
   text-align: right;
 }
 a {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(200,200,200,1);
   font-size: 18px;
-  font-family: "Verdana", sans-serif;
+  font-family: 'Crimson Text', sans-serif;
 }
 ul {
   padding:10px;
