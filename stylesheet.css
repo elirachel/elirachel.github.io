@@ -98,6 +98,10 @@ li {
 #learner {
   background: url("./images-homepage/IMG_2214_bw.jpg");
 }
+#head-link {
+  font-size: 75px;
+  font-family: 'Arsenal', sans-serif;
+}
 
 @media (max-width: 500px) {
   h1 {
